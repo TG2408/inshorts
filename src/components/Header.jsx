@@ -23,8 +23,8 @@ const Header = () => {
     const url = 'https://assets.inshorts.com/website_assets/images/logo_inshorts.png';
 
     return(
-        <AppBar className={classes.header}>
-            <Toolbar>
+        <AppBar>
+            <Toolbar className={classes.header}>
                 <MenuIcon className={classes.menu}/>
                 <img src={url} alt="logo" className={classes.logo} />
             </Toolbar>
