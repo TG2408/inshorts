@@ -5,6 +5,8 @@ import { makeStyles } from '@mui/styles';
 //Components
 import Header from './components/Header';
 import InfoHeader from './components/InfoHeader';
+import Articles from './components/Articles';
+
 
 
 const useStyles = makeStyles({
@@ -27,6 +29,7 @@ const App = () => {
       <Header />
       <Box className={classes.container}>
         <InfoHeader />
+        <Articles />
       </Box>
     </Box>
   )
