@@ -1,6 +1,9 @@
 import { makeStyles } from '@mui/styles';
 import Box from '@mui/material/Box';
+import { createTheme } from '@mui/material/styles';
 // import Typography from '@mui/material/Typography';
+
+
 
 const useStyles = makeStyles({
     container: {
@@ -8,7 +11,11 @@ const useStyles = makeStyles({
         color: "#ffffff",
         height: 48,
         display: "flex",
-        alignItems: "center"
+        alignItems: "center",
+        marginBottom: 30,
+        [createTheme().breakpoints.down('lg')]: {
+            display: "none"
+        }
     },
     text: {
         fontSize: 14,
