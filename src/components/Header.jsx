@@ -8,8 +8,9 @@ const useStyles = makeStyles({
         height: "70px"
     },
     logo: {
-        height: "55px",
+        height: "70px",
         margin: "auto",
+        width: "200px",
         paddingRight: 70
     },
     menu: {
@@ -20,7 +21,8 @@ const useStyles = makeStyles({
 const Header = () => {
 
     const classes = useStyles();
-    const url = 'https://assets.inshorts.com/website_assets/images/logo_inshorts.png';
+    // const url = 'https://assets.inshorts.com/website_assets/images/logo_inshorts.png';
+    const url = 'https://media.istockphoto.com/vectors/latest-news-icon-sign-design-newsletter-blog-message-icon-speech-vector-id1283995158'
 
     return(
         <AppBar>

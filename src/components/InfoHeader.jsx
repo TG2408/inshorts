@@ -45,8 +45,8 @@ const InfoHeader = () => {
         <Box className={classes.container}>
             <p className={classes.text}>For the best experience use <b>inshorts</b> app on your smartphone</p>
             <Box style={{marginLeft: "auto"}}>
-                <img src={appleStore} alt="Apple Store" className={classes.logo} />
-                <img src={googleStore} alt="Google Store" className={classes.logo} />
+                <a href="https://itunes.apple.com/us/app/news-in-shorts/id892146527"><img src={appleStore} alt="Apple Store" className={classes.logo} /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.nis.app&referrer=utm_source=inshorts%20mobile"><img src={googleStore} alt="Google Store" className={classes.logo} /></a>
             </Box>
         </Box>
     )
